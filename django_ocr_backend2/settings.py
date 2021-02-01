@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # local apps
+    'ocr',
+    'ocr_api',
+
+    # honeypot for admin site security
+    'admin_honeypot'
 ]
 
 MIDDLEWARE = [
