@@ -9,8 +9,6 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
-from dotenv import load_dotenv
 import os
 from pathlib import Path
 
@@ -24,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY ------------------------------------------------------------
 
 # SECRET_KEY protected in .env file
-load_dotenv()
 SECRET_KEY = os.getenv('DJANGO_BACKEND_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
