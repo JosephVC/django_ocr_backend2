@@ -47,17 +47,6 @@ django = ">=2.2"
 
 [[package]]
 category = "main"
-description = "Add .env support to your django/flask apps in development and deployments"
-name = "python-dotenv"
-optional = false
-python-versions = "*"
-version = "0.15.0"
-
-[package.extras]
-cli = ["click (>=5.0)"]
-
-[[package]]
-category = "main"
 description = "World timezone definitions, modern and historical"
 name = "pytz"
 optional = false
@@ -73,7 +62,7 @@ python-versions = ">=3.5"
 version = "0.4.1"
 
 [metadata]
-content-hash = "2d75b43f9c76240bbe1d9a494d0f9f578b75c88363c7ba36218ae0a99596e1ab"
+content-hash = "aacbd282dca007781397c89ef0a9ea2efb46c0895354404021740f7be645550d"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -92,10 +81,6 @@ django-admin-honeypot = [
 ]
 djangorestframework = [
     {file = "djangorestframework-3.12.2-py3-none-any.whl", hash = "sha256:0209bafcb7b5010fdfec784034f059d512256424de2a0f084cb82b096d6dd6a7"},
-]
-python-dotenv = [
-    {file = "python-dotenv-0.15.0.tar.gz", hash = "sha256:587825ed60b1711daea4832cf37524dfd404325b7db5e25ebe88c495c9f807a0"},
-    {file = "python_dotenv-0.15.0-py2.py3-none-any.whl", hash = "sha256:0c8d1b80d1a1e91717ea7d526178e3882732420b03f08afea0406db6402e220e"},
 ]
 pytz = [
     {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
